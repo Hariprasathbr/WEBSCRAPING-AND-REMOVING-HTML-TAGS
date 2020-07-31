@@ -3,10 +3,10 @@ from bs4 import BeautifulSoup
 import re
 
 #Remove html tags from a string
-def remove_html_tags(text):
+'''def remove_html_tags(text):
     clean = re.compile('<.*?>')
     return re.sub(clean, '', text)
-
+'''
 file_name = "abc.txt"
 file = open(file_name,"w")
 
